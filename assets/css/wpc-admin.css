@@ -1,0 +1,54 @@
+/**
+ * WooCommerce Products Carousel – Admin Settings Styles
+ */
+
+#wpc-settings-page form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  max-width: 700px;
+}
+
+#wpc-settings-page h1 {
+  margin-bottom: 20px;
+}
+
+#wpc-settings-page .form-table th {
+  width: 200px;
+  vertical-align: middle;
+  padding-top: 15px;
+}
+
+#wpc-settings-page .form-table td {
+  padding: 12px 10px;
+}
+
+#wpc-settings-page input[type="text"],
+#wpc-settings-page input[type="number"] {
+  width: 120px;
+  padding: 6px 8px;
+  border: 1px solid #ccd0d4;
+  border-radius: 4px;
+}
+
+#wpc-settings-page input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-right: 8px;
+}
+
+#wpc-settings-page .description {
+  color: #666;
+  font-size: 0.9em;
+}
+
+#wpc-settings-page .button-primary {
+  background: #0073aa;
+  border-color: #006799;
+  box-shadow: none;
+}
+
+#wpc-settings-page .button-primary:hover {
+  background: #006799;
+  border-color: #006799;
+}
