@@ -1,6 +1,6 @@
 === WooCommerce Products Carousel ===
-Contributors: muritalmoshiomole
-Donate link: https://example.com/
+Contributors: Murital M. oshiomole
+Donate link: https://wpsaul.com/
 Tags: woocommerce, carousel, products, slider, splide, ecommerce
 Requires at least: 5.6
 Tested up to: 6.7
@@ -24,7 +24,7 @@ Features:
 
 = Usage =
 
-Add this shortcode in any page, post, or widget:
+AUsage example is by adding the shortcode in any page, post, or widget:
 
 [product_image_carousel category="shirts,men" limit="8"]
 
