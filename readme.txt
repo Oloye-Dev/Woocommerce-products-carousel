@@ -1,4 +1,4 @@
-=== WooCommerce Products Carousel ===
+=== WooCommerce Products Carousel Plugin ===
 Contributors: Murital M. oshiomole
 Donate link: https://wpsaul.com/
 Tags: woocommerce, carousel, products, slider, splide, ecommerce
