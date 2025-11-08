@@ -1,0 +1,80 @@
+/* === Responsive adjustments === */
+@media (max-width: 768px) {
+  .splide__arrow {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  .splide__arrow svg {
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .splide__arrow {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .splide__arrow svg {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+	
+}
+
+/* Stack them on new lines */
+.splide-normal .price del,
+.splide-normal .price ins {
+  display: block;
+  text-align: left;
+  margin: 0; /* remove any weird margin if present */
+  padding: 0; /* remove padding */
+	line-height: 1.2;
+}
+
+.splide-normal .price ins {
+	color: red;
+}
+	
+	/* Mobile styles */
+@media (max-width: 768px) {
+  .splide__slide h3.product-title  {
+    font-size: 14px;
+		text-decoration: none;
+		margin-top: 3px;
+		margin-bottom: 3px;
+  }
+}
+
+.splide__slide h3.product-title  {
+    font-size: 16px;
+		text-decoration: none;
+		margin-top: 10px;
+		margin-bottom: 3px;
+  }
+
+@media (max-width: 768px) {
+.splide__slide .price {
+  color: #222;
+  font-weight: 400;
+	font-size: 12px;
+	}
+}
+
+
+/* === Remove link underlines inside carousel === */
+.splide__slide a {
+  text-decoration: none !important;
+  color: inherit; /* use same color as surrounding text */
+}
+
+.splide__arrow:hover {
+background-color: #ccc;
+	opacity: .9;
+}
+
+.splide__arrow:focus {
+background-color: #ccc;
+}
