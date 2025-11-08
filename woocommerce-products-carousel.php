@@ -27,7 +27,10 @@ require_once WPC_PLUGIN_DIR . 'includes/shortcode.php';
 function wpc_enqueue_front_assets() {
 	// Splide CSS and JS
 	wp_enqueue_style( 'splide-css', WPC_PLUGIN_URL . 'assets/splide/splide.min.css', array(), '4.1.3' );
-	wp_enqueue_script( 'splide-js', WPC_PLUGIN_URL . 'assets/splide/splide.min.js', array(), '4.1.3', true );
+	wp_enqueue_script( 'splide-js', WPC_PLUGIN_URL . 'assets/splide/splide.min.js', array(),
+	 '4.1.3', true );
+	 wp_enqueue_script( 'splide-js', WPC_PLUGIN_URL . 'assets/splide/autoscroll.min.js', array(),
+	 '4.1.3', true );
 
 	// Frontend CSS
 	wp_enqueue_style( 'wpc-frontend-css', WPC_PLUGIN_URL . 'assets/css/wpc-frontend.css', array(), WPC_VERSION );
