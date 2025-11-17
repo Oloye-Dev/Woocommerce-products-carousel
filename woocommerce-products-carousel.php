@@ -41,6 +41,7 @@ function wpc_enqueue_front_assets() {
 	// Get saved settings
 	$options = get_option( 'wpc_splide_settings', array(
 		'perPage'    => 4,
+		'perMove'    => 1,
 		'autoplay'   => false,
 		'arrows'     => true,
 		'pagination' => false,
@@ -63,6 +64,7 @@ function wpc_register_settings() {
 		'sanitize_callback' => 'wpc_sanitize_splide_settings',
 		'default'           => array(
 			'perPage'    => 4,
+			'perMove'    => 1,
 			'autoplay'   => false,
 			'arrows'     => true,
 			'pagination' => false,
@@ -128,6 +130,7 @@ add_action( 'admin_init', 'wpc_register_settings' );
 function wpc_sanitize_splide_settings( $input ) {
 	return array(
 		'perPage'    => absint( $input['perPage'] ?? 4 ),
+		'perPage'    => absint( $input['perMove'] ?? 1 ),
 		'autoplay'   => ! empty( $input['autoplay'] ),
 		'arrows'     => ! empty( $input['arrows'] ),
 		'pagination' => ! empty( $input['pagination'] ),

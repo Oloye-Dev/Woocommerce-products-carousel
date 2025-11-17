@@ -11,6 +11,7 @@
 			new Splide(this, {
 				type: wpcSplideSettings.loop ? 'loop' : 'slide',
 				perPage: parseInt(wpcSplideSettings.perPage) || 4,
+				perMove: 1,
 				autoplay: !!wpcSplideSettings.autoplay,
 				arrows: !!wpcSplideSettings.arrows,
 				pagination: !!wpcSplideSettings.pagination,
