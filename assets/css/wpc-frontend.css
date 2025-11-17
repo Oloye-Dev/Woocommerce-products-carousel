@@ -63,7 +63,15 @@
 	}
 }
 
+.splide__slide .price {
+  display:flex;
+  justify-content: center;
+}
 
+.splide__slide h3.product-title  {
+  display:flex;
+  justify-content: center;
+}
 /* === Remove link underlines inside carousel === */
 .splide__slide a {
   text-decoration: none !important;
